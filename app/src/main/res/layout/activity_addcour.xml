@@ -1,0 +1,77 @@
+<TableLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:stretchColumns="1"
+    android:background="#4FBBEC"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="Course Duration"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/id3"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+    </TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="Course Venue"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/id4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+    </TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="Course Date"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/id5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="date"/>
+    </TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:text="Course Description"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/id6"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+    </TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="Course Title"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/id7"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text=""
+            android:textSize="20dp"/>
+     <Button
+         android:id="@+id/id8"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="ADD"/>
+    </TableRow>
+</TableLayout>
